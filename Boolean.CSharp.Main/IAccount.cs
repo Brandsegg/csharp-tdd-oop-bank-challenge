@@ -14,5 +14,10 @@ namespace Boolean.CSharp.Main
         decimal GetBalance();
         
         List<Transaction> GetTransactions();
+
+        //Add branch here somehow
+
+        bool RequestOverdraft(int newOverdraft);
+        bool GrantOverdraft(int newOverdraft);
     }
 }

@@ -19,4 +19,11 @@ namespace Boolean.CSharp.Main
         Helsinki,
         London
     }
+
+    public enum role
+    {
+        Manager,
+        Customer,
+        Engineer
+    }
 }

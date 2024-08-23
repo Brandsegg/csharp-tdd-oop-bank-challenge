@@ -36,6 +36,9 @@ namespace Boolean.CSharp.Main
                     sb.AppendLine($"{t.DateTime}\t\t||\t\t||{t.amount}\t\t||{t.balance}");
                 }
 
+                //print overdraft request also haha
+                
+
             }
 
             return sb.ToString();
